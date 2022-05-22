@@ -8,7 +8,7 @@ interface MountainArray {
        return arr.length;
     }
  }
-public class LH001_1095 {
+public class LH001_1095GoodQuestion {
     public static void main(String[] args) {
         System.out.println(findInMountainArray(1));
     }
