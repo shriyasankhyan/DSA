@@ -8,3 +8,4 @@ L Type of Problem , Order in which I solved, _ to separate and Problem number on
 **For example** , 
 LE001_1920 means that it is leetcode easy problem(LE) , I have solved it the very first (001) ,_ to separate and 
 1920 is the leetcode problem number.
+After this , somewhere I have written good question for good questions and somewhere I have mentioned the algorithm or question related information.
