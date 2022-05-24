@@ -1,6 +1,6 @@
 package Medium;
 
-public class LM005_33 {
+public class LM005_33GoodQuestion {
     public static void main(String[] args) {
         int [] nums = {4,5,6,7,8,1,2,3};
         int target = 8;
