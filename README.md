@@ -5,10 +5,11 @@ In this , I have followed my own naming convention to sort these.
 </br> 
 L Type of Problem , Order in which I solved, _ to separate and Problem number on Leetcode.
 </br>
-After this , somewhere I have written good question for good questions and somewhere I have mentioned the algorithm or question related information.
+After this , somewhere I have written good question for good questions and somewhere I have mentioned the algorithm or question related information. Sometimes , I have also written A, B and C which indicates different solutions to the same problem.
 </br>
 **For example** , 
 1. LE001_1920 means that it is leetcode easy problem(LE) , I have solved this easy problem the very first (001) ,_ to separate and 
 1920 is the leetcode problem number.
 2. LH001_1095GoodQuestion stands for leetcode hard(LH), 001 the very first hard question I tried ,_ for seperator , 1095 is the leetcode question number and good question means it took good efforts from my end to solve this question. So, it is a good question to be retried at the time of revision.
+3. LE022_448A represents it is one type of solution to LE022_448 and LE022_448B indicates this is the another solution to the same problem LE022_448.
 
