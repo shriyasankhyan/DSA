@@ -1,6 +1,6 @@
 package Easy;
 
-public class LE28_69 {
+public class LE028_69 {
     public static void main(String[] args) {
         System.out.println(mySqrt(2147395599));
     }
