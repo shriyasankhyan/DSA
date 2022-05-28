@@ -12,6 +12,9 @@ public class LM003_034 {
         int start = occurrence(nums,target,true);
 //        If we could not find the element in the array.
         if(start != -1) {
+//            We could have found the first occurence and then run a while loop for other one. But that will again make
+//            its time complexity O(N) and kill the purpose of binary search , whose time complexity in worst case is
+//            O(logn)
             int end = occurrence(nums, target, false);
             return new int [] {start,end};
         }
