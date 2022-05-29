@@ -1,6 +1,6 @@
 package Easy;
 
-public class LE014_1 {
+public class LE014_1A {
     public static void main(String[] args) {
         int []nums = {2,7,11,25,-345,-35};
         int target = 9;
