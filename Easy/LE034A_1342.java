@@ -1,6 +1,6 @@
 package Easy;
 
-public class LE034_1342 {
+public class LE034A_1342 {
     public static void main(String[] args) {
         System.out.println(numberOfSteps(14));
     }
