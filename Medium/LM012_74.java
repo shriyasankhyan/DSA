@@ -22,28 +22,13 @@ public class LM012_74 {
             }
         }
 //        Now we have 2 rows left. Search in those 2 rows.
-        if(matrix[rowStart][colMid] == target){
+        if(binarySearch(matrix[rowStart],target,0,matrix[rowStart].length-1)){
             return true;
-        } else if (matrix[rowStart][colMid] < target) {
-            if(binarySearch(matrix[rowStart],target,colMid+1,matrix[0].length-1)){
-                return true;
-            }
-        }else{
-            if (binarySearch(matrix[rowStart],target,0,colMid-1)){
-                return true;
-            }
         }
-        if(matrix[rowEnd][colMid] == target){
+        if(binarySearch(matrix[rowEnd],target,0,matrix[rowEnd].length-1)){
             return true;
-        } else if (matrix[rowEnd][colMid] < target) {
-            if(binarySearch(matrix[rowEnd],target,colMid+1,matrix[0].length-1)){
-                return true;
-            }
-        }else{
-            if(binarySearch(matrix[rowEnd],target,0,colMid-1)){
-                return true;
-            }
         }
+
         return false;
     }
 

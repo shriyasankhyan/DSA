@@ -1,6 +1,6 @@
 package Easy;
 
-public class LE003_1480 {
+public class LE003_1480A {
     public static void main(String[] args) {
         int [] nums = {1,2,3,4};
         runningSum(nums);
