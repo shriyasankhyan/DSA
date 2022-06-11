@@ -1,5 +1,5 @@
 package Easy;
-public class LE005_2114 {
+public class LE005_2114A {
     public static void main(String[] args) {
         String [] sentences = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
         System.out.println(mostWordsFound(sentences));

@@ -1,6 +1,6 @@
 package Easy;
 
-public class LE006_1470 {
+public class LE006_1470A {
     public static void main(String[] args) {
         int [] nums = {2,5,1,3,4,7};
         int [] ans = shuffle(nums,nums.length/2);

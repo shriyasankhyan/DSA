@@ -1,6 +1,6 @@
 package Easy;
 
-public class LE004_2011 {
+public class LE004_2011A {
     public static int finalValueAfterOperations(String[] operations) {
         int x = 0;
         for (int i = 0; i < operations.length; i++) {

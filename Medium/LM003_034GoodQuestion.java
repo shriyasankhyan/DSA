@@ -1,6 +1,6 @@
 package Medium;
 
-public class LM003_034 {
+public class LM003_034GoodQuestion {
     public static void main(String[] args) {
         int [] arr = {5,7,7,7,7,8,8,10};
         int target = 7;
@@ -12,9 +12,9 @@ public class LM003_034 {
         int start = occurrence(nums,target,true);
 //        If we could not find the element in the array.
         if(start != -1) {
-//            We could have found the first occurence and then run a while loop for other one. But that will again make
+//            We could have found the first occurrence and then run a while loop for other one. But that will again make
 //            its time complexity O(N) and kill the purpose of binary search , whose time complexity in worst case is
-//            O(logn)
+//            O(logN)
             int end = occurrence(nums, target, false);
             return new int [] {start,end};
         }
